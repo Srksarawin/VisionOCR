@@ -1,7 +1,7 @@
 # Explanation of Code (line by line)
 
 `!pip install opencv-python` 
-- `!` : is used when you use **Jupyter Notebook** or **Google Colab**.
+- `!` : is used when you use **Jupyter Notebook** or **Google Colab** (Code Cells)
 
 - `pip` :
     -  It is **Python Package Manager**
