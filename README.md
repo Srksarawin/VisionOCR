@@ -8,4 +8,6 @@ The `VisionOCR` is an **OCR** (Optical Character Recognition) tool that detects 
 - PyTesseract 
 - Jupyter Notebook 📓
 
+# 
 
+To understand the program line by line, check [Github](codex.md)
