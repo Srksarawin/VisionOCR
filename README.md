@@ -1,6 +1,6 @@
 # VisionOCR 🔍
 
-An OCR tool for detecting and extracting text from images using **OpenCV** and **Tesseract OCR**.
+
 
 ---
 
