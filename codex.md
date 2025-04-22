@@ -33,8 +33,8 @@
 #
 
 `pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files\Tesseract-OCR\tesseract.exe'`
-    - tells the system where is Tesseract file is, so that we can do OCR applications.
-    - some systems know where the tesseract file is, but most of the systems don't know where that file is, so that's why we are including this code.
-    - You have to install the Tesseract to do the OCR applications.
+ - tells the system where is Tesseract file is, so that we can do OCR applications.
+ - some systems know where the tesseract file is, but most of the systems don't know where that file is, so that's why we are including this code.
+ - You have to install the Tesseract to do the OCR applications.
     
   
