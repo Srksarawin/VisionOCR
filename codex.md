@@ -14,6 +14,7 @@
 - `opencv-python` :
     - name of the package (Opencv).
     - `Opencv` packages are widely in ***Computer Vision*** tasks such as **Image Processing** and **Video Processing**.
+#
 
    `!pip install pytesseract`
   
