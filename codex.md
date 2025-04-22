@@ -56,6 +56,11 @@
 
  `ret, thresh1=cv2.threshold(gray,0,255, cv2.THRESH_OTSU | cv2.THRESH_BINARY_INV)`
  - Here we do thresholding - converts an image into black & white image where all pixel values either 0 (black) or 255 (white) based on threshold value.
+ - Thresholding
+   - creates clear contrast between **text** and **background**
+   - removing shadows
+   - removing noise
+   - removing background variations
  - goal:
      - create image where text stands out sharply from background.
        
@@ -101,5 +106,25 @@
 #
 
 `contours, hierarchy=cv2.findContours(dilation, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)`
--
-  
+- finds the outlines (contours) of white shapes (objects=text) in a black & white image.
+
+- `cv2.findContours()`
+    - detects edges or shapes in a binary image.
+    - returns 2 things:
+        - `contours`  - the actual outline points
+        - `hierarchy` - the structure of those contours
+
+- `dilation`
+    - input image
+    - usually a binary image after processing (like thresholding or dilation)
+    - **Dilation** makes **white areas bigger** --> helps connect broken part of text or shapes.
+
+- `cv2.RETR_EXTERNAL`
+    - find only **Outer most contours**
+    - ignores contours inside other contours (eg. Hole in the letter 'O')
+
+- `cv2.CHAIN_APPROX_NONE`
+    - saves all contour points exactly
+    - no compression or simplification
+    - get every pixel point that makes up the contour 
+
