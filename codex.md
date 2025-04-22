@@ -42,12 +42,15 @@
 `img=cv2.imread('Sample.jpg')`
 - reading the image and store it into a variable (img)
 - it is stored as **Numpy array** (image contains pixels)
+- stores as pixel data
+- Pixel data --> Numpy array
 
 #
 
 `gray=cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)`
 - converting the image to **Grayscale**
 - grayscale converts an image to shades of gray removing color information.
+- easier to focus on shapes and contrasts (difference between text and background)
 
  #
 
