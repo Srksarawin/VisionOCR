@@ -4,6 +4,6 @@
 - `!` : is used when you use **Jupyter Notebook** or **Google Colab**.
 - `pip` : It is **Python Package Manager** used to install **Packages** and **Libraries** from ***Python Package Index*** `PyPI`
   - The full form of `pip` is `Pip Installs Packages`
-  - `pip` will find the package from `PyPI` repository install and download it to the environment.
+  - `pip` will find the package from *PyPI* repository install and download it to the environment.
 - `opencv-python` : name of the package that provides the Opencv library.
     -`Opencv` packages are widely in **Computer Vision** tasks such as *Image Processing* and *Video Processing*.    
