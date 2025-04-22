@@ -42,5 +42,15 @@
 `img=cv2.imread('Sample.jpg')`
 - reading the image and store it into a variable (img)
 - it is stored as **Numpy array** (image contains pixels)
-    
+
+#
+
+`gray=cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)`
+- converting the image to **Grayscale**
+- grayscale converts an image to shades of gray removing color information.
+
+ #
+
+ `ret, thresh1=cv2.threshold(gray,0,255, cv2.THRESH_OTSU | cv2.THRESH_BINARY_INV)`
+ - Here we do thresholding
   
