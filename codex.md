@@ -8,5 +8,6 @@
     -  It is used to install **Packages** and **Libraries** from ***Python Package Index*** `PyPI`
     - The full form of `pip` is `Pip Installs Packages`
     - `pip` will find the package from *PyPI* repository install and download it to the environment.
-- `opencv-python` : name of the package .
-    -`Opencv` packages are widely in **Computer Vision** tasks such as *Image Processing* and *Video Processing*.    
+
+- `opencv-python` : name of the package (Opencv).
+    -`Opencv` packages are widely in ***Computer Vision*** tasks such as **Image Processing** and **Video Processing**.    
