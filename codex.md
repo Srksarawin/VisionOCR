@@ -52,5 +52,34 @@
  #
 
  `ret, thresh1=cv2.threshold(gray,0,255, cv2.THRESH_OTSU | cv2.THRESH_BINARY_INV)`
- - Here we do thresholding
+ - Here we do thresholding - converts an image into black & white image where all pixel values either 0 (black) or 255 (white) based on threshold value.
+ - goal:
+     - create image where text stands out sharply from background.
+       
+`cv2.THRESH_OTSU`
+- automatic method to determind the optimal threshold.
+- calculates the best threshold based on pixel distribution.
+
+`cv2.THRESH_BINARY_INV`
+- inverts the thresholded image.
+
+- `THRESH_BINARY`
+     - Background - White (255)
+     - Text       - Black (0)
+
+- `THRESH_BINARY_INV`
+    - Background - Black (0)
+    - Text       - White (255)
+ 
+- `ret`
+    -stores the threshold value (mostly ignored when using `THRESH_OTSU` )
+
+- `thresh1`
+    -binary image that has been thresholded (black & white)
+
+#
+
+`rect_kernel=cv2.getStructuringElement(cv2.MORPH_RECT, (18,18))`
+- creates a structuring element for morphological operations (image processing = (dilation or erosion))
+       
   
