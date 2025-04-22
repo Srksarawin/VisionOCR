@@ -33,8 +33,14 @@
 #
 
 `pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files\Tesseract-OCR\tesseract.exe'`
- - tells the system where is Tesseract file is, so that we can do OCR applications.
+ - tells the system **where the Tesseract file is**, so that we can do OCR applications.
  - some systems know where the tesseract file is, but most of the systems don't know where that file is, so that's why we are including this code.
  - You have to install the Tesseract to do the OCR applications.
+
+#
+
+`img=cv2.imread('Sample.jpg')`
+    - reading the image and store it into a variable (img)
+    - it is stored as **Numpy array** (image contains pixels)
     
   
