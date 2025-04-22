@@ -40,7 +40,7 @@
 #
 
 `img=cv2.imread('Sample.jpg')`
-    - reading the image and store it into a variable (img)
-    - it is stored as **Numpy array** (image contains pixels)
+- reading the image and store it into a variable (img)
+- it is stored as **Numpy array** (image contains pixels)
     
   
