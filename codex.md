@@ -17,7 +17,7 @@
 
    `!pip install pytesseract`
   
-  - `pytesseract` :
+- `pytesseract` :
     - wrapper (interface) for **Google's Tesseract OCR Engine**.
     - allows you to use Tesseract-OCR (which reads text from images)
   
