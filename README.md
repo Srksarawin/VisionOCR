@@ -11,4 +11,4 @@ The `VisionOCR` is an **OCR** (Optical Character Recognition) tool that detects 
 
 To **Understand** the **Program (Code)** line by line, check this 👉  [Codex](codex.md)
 
-To **Understand** the **Concepts (why I used this)** , check this 👉  [Concepts](concepts.md)
+To **Understand** the **Concepts (Why I used this)** , check this 👉  [Concepts](concepts.md)
