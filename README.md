@@ -10,4 +10,4 @@ The `VisionOCR` is an **OCR** (Optical Character Recognition) tool that detects 
 
 # 
 
-To understand the program line by line, visit  [Codex](codex.md).
+To understand the program line by line, visit  [Codex](codex.md)
