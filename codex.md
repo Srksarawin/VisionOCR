@@ -78,11 +78,28 @@
     -stores the threshold value (mostly ignored when using `THRESH_OTSU` )
 
 - `thresh1`
-    -binary image that has been thresholded (black & white)
+    - binary image that has been thresholded (black & white)
 
 #
 
 `rect_kernel=cv2.getStructuringElement(cv2.MORPH_RECT, (18,18))`
 - creates a structuring element for morphological operations (image processing = (dilation or erosion))
-       
+
+- `cv2.MORPH_RECT`
+    - shape of the structuring element.
+    - we are using rectangular shape.
+
+- `(18,18)`
+    - size of structuring element.
+    - 18 x 18 matrix (a rectangle of 18 pixels by 18 pixels)       
+
+#
+
+`dilation=cv2.dilate(thresh1, rect_kernel, iterations=1)`
+- expanding the white parts of the image to make them bigger/thicker using rectangular shape (kernel) if size 18 x 18 (for once)
+
+#
+
+`contours, hierarchy=cv2.findContours(dilation, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)`
+-
   
