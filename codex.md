@@ -21,4 +21,20 @@
 - `pytesseract` :
     - wrapper (interface) for **Google's Tesseract OCR Engine**.
     - allows you to use Tesseract-OCR (which reads text from images)
+
+ #
+
+ `import cv2`
+     - loads the library in your current python script.
+
+`import pytesseract`
+    - loads the pytesseract library. 
+
+#
+
+`pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files\Tesseract-OCR\tesseract.exe'`
+    - tells the system where is Tesseract file is, so that we can do OCR applications.
+    - some systems know where the tesseract file is, but most of the systems don't know where that file is, so that's why we are including this code.
+    - You have to install the Tesseract to do the OCR applications.
+    
   
