@@ -25,10 +25,10 @@
  #
 
  `import cv2`
-     - loads the library in your current python script.
+- loads the library in your current python script.
 
 `import pytesseract`
-    - loads the pytesseract library. 
+- loads the pytesseract library. 
 
 #
 
