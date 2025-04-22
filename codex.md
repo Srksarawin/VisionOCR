@@ -16,6 +16,7 @@
     - `Opencv` packages are widely in ***Computer Vision*** tasks such as **Image Processing** and **Video Processing**.
 
    `!pip install pytesseract`
-      -`pytesseract` : wrapper (interface) for **Google's Tesseract OCR Engine**
+  -`pytesseract` :
+      -wrapper (interface) for **Google's Tesseract OCR Engine**
       - allows you to use Tesseract-OCR (which reads text from images)
   
