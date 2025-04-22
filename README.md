@@ -9,4 +9,4 @@ The `VisionOCR` is an **OCR** (Optical Character Recognition) tool that detects 
 - Jupyter Notebook 📓
 # 
 
-To understand the program line by line, check this -->  [Codex](codex.md)
+To **Understand** the program line by line, check this -->  [Codex](codex.md)
