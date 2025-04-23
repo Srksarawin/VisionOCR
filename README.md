@@ -9,7 +9,7 @@ The `VisionOCR` is an **OCR** (Optical Character Recognition) tool that detects 
 - PyTesseract 
 - Jupyter Notebook 
 
-## Concepts
+## Concepts/Contents
 
 - `opencv`
    - For Image processing 
