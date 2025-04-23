@@ -8,10 +8,9 @@ The `VisionOCR` is an **OCR** (Optical Character Recognition) tool that detects 
 - OpenCV 
 - PyTesseract 
 - Jupyter Notebook 
-# 
 
 ## Workflow
-
+![Flow](flow.png)
 #
 
 ## License
