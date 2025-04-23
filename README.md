@@ -9,23 +9,12 @@ The `VisionOCR` is an **OCR** (Optical Character Recognition) tool that detects 
 - PyTesseract 
 - Jupyter Notebook 
 
-## Project Overview & Content
+## Concepts
 
-In this project, I use two concepts **OpenCV** and **Pytesseract**, for *Image processing* and *Text Detection and Extraction*.
-
-
-- When I read the image using `img=cv2.imread()`, the `img` variable stores the contents of the image in **Numpy Array** because the image contains the pixel data.
-- Then I convert the image into **Grayscale** image
-   - `Grayscale` is an image format which contains the shades of gray.
-   - Each pixel carries the intensity information, ranging from black (0) to white (255)
-      - Why I use this?
-         - When I use **grayscale** in image, it is easier to focus on shapes and contrast (difference between text and background)
-- After converting the image into grayscale image, now I do `**Thresholding**
-   - `Threshold` converts an image into black & white image where all pixel values are either 0 (black) or 255 (white) based on threshold value.
-   - **Threshold** converts the **grayscale** image into **Binary** image
-       - Why I use this?
-          - create a binary image where tex stands out sharply from background
--               
+- `opencv`
+   - For Image processing 
+- `pytesseract`
+   - OCR applications               
 
 ## Workflow
 ![Flow](images/workflow.png)
