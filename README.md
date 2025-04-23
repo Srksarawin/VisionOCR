@@ -21,6 +21,4 @@ The `VisionOCR` is an **OCR** (Optical Character Recognition) tool that detects 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).  
-Feel free to use, modify, and share with credit to **Sarawin R.**
-
+This project is licensed under the [MIT License](LICENSE). 
