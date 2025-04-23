@@ -10,7 +10,7 @@ The `VisionOCR` is an **OCR** (Optical Character Recognition) tool that detects 
 - Jupyter Notebook 
 
 ## Workflow
-![Flow](flow.png)
+![Flow](images/flow.png)
 #
 
 ## License
