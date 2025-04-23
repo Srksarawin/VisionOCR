@@ -9,9 +9,16 @@ The `VisionOCR` is an **OCR** (Optical Character Recognition) tool that detects 
 - PyTesseract 
 - Jupyter Notebook 
 
+## Project Overview
+
+In this project, I use two concepts **OpenCV** and **Pytesseract**, for *Image processing* and *Text Detection and Extraction*.
+
+`opencv`:
+- Image Processing
+- To capture the image and read it
+
 ## Workflow
 ![Flow](images/workflow.png)
-#
 
 ## License
 
