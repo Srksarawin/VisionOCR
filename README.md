@@ -12,11 +12,14 @@ The `VisionOCR` is an **OCR** (Optical Character Recognition) tool that detects 
 ## Project Overview
 
 In this project, I use two concepts **OpenCV** and **Pytesseract**, for *Image processing* and *Text Detection and Extraction*.
-Let's see why i use these:
 
 `opencv`:
 - Image Processing
 - To capture the image and read it
+
+ `pytesseract`
+ - To perform OCR operations.
+ - Extract the text from the Image.
 
 ## Workflow
 ![Flow](images/workflow.png)
